@@ -1,0 +1,200 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #222222;
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    
+}
+
+.logo:hover {
+    animation: bounce 0.5s ease-in-out;
+    transform: scale(1.05);
+    background-color: white;
+    color:black;
+}
+
+.navbar {
+    background-color: #222222;  
+    padding: 0px 0px;
+    text-align: center;
+} 
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: #111; 
+    border-radius: 50px;  
+    padding: 20px 20px;
+}
+
+
+.nav-links li {
+    display: inline;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px; 
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav-links .active {
+    background-color: #3a3a3a;
+    font-weight: bold;
+}
+.nav-links .active:hover{
+
+    transform: scaleX(10px);
+}
+
+
+.nav-links a:hover {
+    background-color: #3a3a3a;
+}
+
+.contact{
+    margin-right: 3%;
+}
+.button {
+    background-color: #222;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 1s ease;
+}
+
+.button:hover {
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    transform: scale(20);
+}
+
+.hero {
+    background: rgb(180, 180, 180);
+    color: rgb(5, 5, 5);
+    padding: 50px 20px;
+    margin-top: 20px;
+}
+
+
+
+.overall-rating {
+    padding: 20px;
+    background: url('house-1477041_1280.jpg') no-repeat center center/cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+.overall-rating h1{
+    font-size: xx-large;
+    color:  rgb(0, 0, 0);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.overall-rating h2{
+    font-size: xx-large;
+    color:  rgb(255, 255, 255);;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.add-review-btn{
+    background-color: rgb(245, 159, 31);;
+    border: #00000;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.review-card {
+    background: #222222; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.review-card p{
+    color: rgb(243, 215, 55);
+}
+.review-card h3{
+    font-size: x-large;
+    color: black;
+    text-shadow: whitesmoke;
+}
+
+.review-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.review-card img:hover{
+    transform: scale(2);
+    transition: 0.6s ease-out;
+}
+
+
+.add-review {
+    background:  #222222; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    color: black;
+}
+
+form button {
+    background: rgb(245, 159, 31);;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    background: #222;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
